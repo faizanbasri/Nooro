@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Nooro</string>
+    <string name="humidity">Humidity</string>
+    <string name="uv">UV</string>
+    <string name="feel_like">Feel Like</string>
+    <string name="no_city_selected">No City Selected</string>
+    <string name="please_search_for_a_city">Please Search For A City</string>
+    <string name="search_location">Search Location</string>
+    <string name="search">Search</string>
+    <string name="in_valid_api_key">Oh! Invalid API key</string>
+    <string name="no_location_found">Oh! No location found. Please correct your location</string>
+    <string name="error_no_internet">You did not connected with internet, Please check your internet</string>
+    <string name="too_many_request">Oh! You have reached server request limit for today</string>
+    <string name="unknown">Something went wrong, Please try again</string>
+    <string name="error_serialization">Server did not respond, Please try later</string>
+</resources>

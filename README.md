@@ -25,6 +25,6 @@ Material Design 3: For beautiful and modern UI components.
 
 Setup Instructions
 
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/your-username/your-repo.git](https://github.com/faizanbasri/Nooro.git
 
 WEATHER_API_KEY=your_api_key // replace your key in build.gradle(app level)

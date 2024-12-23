@@ -7,13 +7,12 @@ import retrofit2.Response
 inline fun <reified T> responseToResult(response: Response<T>): Result<T, NetworkError> {
     return when (response.code()) {
         in 200..399 -> {
-            try {
-                if (response.body() != null) {
-                    Result.Success(response.body()!!)
-                } else {
+             if (response.body() == null) {
                     Result.Error(NetworkError.UNKNOWN)
                 }
-
+             
+            try {
+                    Result.Success(response.body()!!)
             } catch (e: Exception) {
                 Result.Error(NetworkError.UNKNOWN)
             }
